@@ -1,7 +1,29 @@
+h1, h3, p {
+  color: #2d3c49;
+}
+
 header {
   display: flex;
   align-items: flex-end;
   padding-bottom: 1em;
-  border-bottom: 1px solid #000;
+  border-bottom: .25em solid #7d97ad;
   margin-bottom: 1em;
+}
+
+h2 {
+  color: #7d97ad;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#feature {
+  display: flex;
+}
+
+picture, img {
+  max-width: 100%;
+  margin: 0 auto;
 }
